@@ -1,0 +1,24 @@
+.links {
+	margin-bottom: 20px;
+	align-items: left; /* Align items to the start (left) */
+	/* OR */
+	/* justify-content: left; /* Alternative way to align left */
+}
+
+.link-button {
+	margin: 0px 20px 0px 0px;
+	cursor: pointer;
+	font-size: 16px;
+	border: limegreen 1px solid;
+	color: lime;
+	padding: 5px;
+}
+
+.link-button.active {
+	font-weight: bold;
+}
+
+.content-pane {
+	border: 1px solid limegreen;
+	padding: 20px;
+}

@@ -1,0 +1,36 @@
+* {
+  margin: 0 auto;
+  font-family: 'MesloLGM Nerd Font Mono', monospace;
+  font-size: calc(10px + 1vmin);
+  color: limegreen;
+}
+
+h1.title, h1.title * {
+  font-size: calc(10px + 4vmin);
+}
+
+p.subtitle, p.subtitle *, h2.heading, h2.heading * {
+  font-size: calc(10px + 2vmin);
+}
+
+p.copyright, p.copyright * {
+  font-size: calc(10px + 0.5vmin);
+}
+
+.App-footer div.socials a i {
+  font-size: 24px;
+}
+
+.App-footer div.socials a {
+  margin: 0 0.3em 0 0;
+}
+
+.App {
+  padding: 0 0.3em;
+  background-color: #1a1a1a;
+  min-height: 100vh;
+}
+
+a.link {
+  text-decoration: underline;
+}
