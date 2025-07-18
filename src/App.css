@@ -1,6 +1,8 @@
 * {
+  --secondary-color: limegreen;
+  --font-stack: 'MesloLGM Nerd Font Mono', monospace;
+  --mono-font-stack: 'MesloLGM Nerd Font Mono', monospace;
   margin: 0 auto;
-  font-family: 'MesloLGM Nerd Font Mono', monospace;
   font-size: calc(10px + 1vmin);
   color: limegreen;
 }
