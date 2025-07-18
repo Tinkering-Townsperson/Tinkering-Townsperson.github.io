@@ -22,3 +22,36 @@
 	border: 1px solid limegreen;
 	padding: 20px;
 }
+
+ul.project-list {
+	list-style: none;
+	display: grid;
+	place-items: stretch;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 20px;
+}
+
+@media screen and (min-width: 600px) {
+	ul.project-list {
+		list-style: none;
+		display: grid;
+		place-items: stretch;
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+ul.project-list li.project-item {
+	padding: 10px;
+	height: 100%;
+}
+
+.date {
+	font-size: 0.8em;
+	color: #AAA;
+}
+
+header > a {
+	color: inherit;
+	text-decoration: underline;
+	font-weight: bold;
+}
