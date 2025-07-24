@@ -37,3 +37,15 @@ p.copyright, p.copyright * {
 a.link {
   text-decoration: underline;
 }
+
+.socials a:focus i.fab, .socials a:hover i.fab {
+  outline: none;
+  color: var(--primary-color);
+  background: var(--background-color);
+}
+
+ul.project-list a.project-item-link:focus, ul.project-list a.project-item-link:hover, .link-button:focus, .link-button:hover {
+  outline: 2px solid var(--secondary-color);
+  outline-offset: 2px;
+  background-color: var(--primary-color);
+}

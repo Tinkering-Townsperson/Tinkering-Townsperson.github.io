@@ -12,7 +12,7 @@ export const HACKATHONS = [
 	},
 	{
 		name: "Juice",
-		site: "https://juice.hackclub.com/",
+		site: "https://github.com/hackclub/juice/blob/main/README.md",
 		date: "April 2025",
 		location: "Shanghai, China",
 		project: {
@@ -25,7 +25,7 @@ export const HACKATHONS = [
 		name: "YVRHacks 2024",
 		site: "https://yvrhacks.ca/",
 		date: "September 2024",
-		location: "Vancouver, BC",
+		location: "Vancouver, Canada",
 		project: {
 			name: "Chunky",
 			description: "Chunky is a desktop assistant that breaks down assignments into manageable tasks, helping students stay focused and productive.",

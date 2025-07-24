@@ -1,7 +1,6 @@
+import ContentPane from "./ContentPane.js";
 import "terminal.css";
 import './App.css';
-import "./ContentPane.js";
-import ContentPane from "./ContentPane.js";
 
 function App() {
   return (
@@ -19,10 +18,10 @@ function App() {
         <p className="copyright">© 2025 Paya Maroufi</p>
         <div className="socials">
           <a href="https://github.com/Tinkering-Townsperson" target="_blank" rel="noreferrer">
-            <i className="fab fa-github"></i>
+            <i className="fab fa-github" aria-label="GitHub logo" />
           </a>
           <a href="https://www.youtube.com/@afternooncodes" target="_blank" rel="noreferrer">
-            <i className="fab fa-youtube"></i>
+            <i className="fab fa-youtube" aria-label="YouTube logo" />
           </a>
         </div>
       </footer>

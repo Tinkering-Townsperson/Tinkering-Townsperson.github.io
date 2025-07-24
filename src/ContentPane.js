@@ -7,7 +7,7 @@ import { HACKATHONS } from './data/hackathons.js';
 
 function ProjectItem(props) {
   return (
-    <a href={props.repo} target='_blank' rel='noreferrer'>
+    <a href={props.repo} className='project-item-link' target='_blank' rel='noreferrer'>
       <li className='project-item terminal-card'>
         <header>{props.name}</header>
         <div>
@@ -22,11 +22,11 @@ function ProjectItem(props) {
 function HackathonItem(props) {
   return (
     <div className='hackathon-item terminal-card'>
-      <header><a href={props.site} target='_blank' rel='noreferrer'>{props.name}</a></header>
+      <header><a href={props.site} className='link' target='_blank' rel='noreferrer'>{props.name}</a></header>
       <div>
         <p><strong>Date:</strong> {props.date}</p>
         <p><strong>Location:</strong> {props.location}</p>
-        <p><strong>Project made:</strong> <a href={props.project.repo} target='_blank' rel='noreferrer'>{props.project.name}</a></p>
+        <p><strong>Project made:</strong> <a href={props.project.repo} className='link' target='_blank' rel='noreferrer'>{props.project.name}</a></p>
         <p><strong>Project description:</strong> {props.project.description}</p>
       </div>
     </div>
@@ -37,7 +37,7 @@ function Projects() {
   return (
     <>
       <h2 className='heading'>Projects</h2>
-      <p>Here are a few of my open-source projects. You can find all of them on <a href="https://github.com/Tinkering-Townsperson">my GitHub profile</a>.</p>
+      <p>Here are a few of my open-source projects. You can find all of them on <a href="https://github.com/Tinkering-Townsperson" className='link' target='_blank' rel='noreferrer'>my GitHub profile</a>.</p>
       <ul className='project-list'>
         {PROJECTS.map((project) => (
           <ProjectItem name={project.name} repo={project.repo} description={project.description} tags={project.tags} creation={project.creation} />
