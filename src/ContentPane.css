@@ -1,57 +1,57 @@
 .links {
-	margin-bottom: 20px;
-	align-items: left; /* Align items to the start (left) */
-	/* OR */
-	/* justify-content: left; /* Alternative way to align left */
+  margin-bottom: 20px;
+  align-items: left; /* Align items to the start (left) */
+  /* OR */
+  /* justify-content: left; /* Alternative way to align left */
 }
 
 .link-button {
-	margin: 0px 20px 0px 0px;
-	cursor: pointer;
-	font-size: 16px;
-	border: limegreen 1px solid;
-	color: lime;
-	padding: 5px;
+  margin: 0px 20px 0px 0px;
+  cursor: pointer;
+  font-size: 16px;
+  border: limegreen 1px solid;
+  color: lime;
+  padding: 5px;
 }
 
 .link-button.active {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .content-pane {
-	border: 1px solid limegreen;
-	padding: 20px;
+  border: 1px solid limegreen;
+  padding: 20px;
 }
 
 ul.project-list {
-	list-style: none;
-	display: grid;
-	place-items: stretch;
-	grid-template-columns: repeat(1, 1fr);
-	gap: 20px;
+  list-style: none;
+  display: grid;
+  place-items: stretch;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
 }
 
 @media screen and (min-width: 600px) {
-	ul.project-list {
-		list-style: none;
-		display: grid;
-		place-items: stretch;
-		grid-template-columns: repeat(3, 1fr);
-	}
+  ul.project-list {
+    list-style: none;
+    display: grid;
+    place-items: stretch;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 ul.project-list li.project-item {
-	padding: 10px;
-	height: 100%;
+  padding: 10px;
+  height: 100%;
 }
 
 .date {
-	font-size: 0.8em;
-	color: #AAA;
+  font-size: 0.8em;
+  color: #AAA;
 }
 
 header > a {
-	color: inherit;
-	text-decoration: underline;
-	font-weight: bold;
+  color: inherit;
+  text-decoration: underline;
+  font-weight: bold;
 }
