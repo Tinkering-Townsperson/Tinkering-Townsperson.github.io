@@ -34,5 +34,41 @@ export const PROJECTS = [
 		repo: "https://github.com/TinkerTown-SEMI/Chunky",
 		description: "Chunky is a desktop assistant that breaks down assignments into manageable tasks, helping students stay focused and productive.",
 		creation: "September 2024"
-	}
+	},
+  {
+    name: "Undercity Lanyard Flasher",
+    repo: "https://github.com/tinkering-townsperson/undercity-lanyard",
+    description: "Undercity lanyard flasher, now with a GUI! Supports all platforms and makes images easy to add.",
+    creation: "July 2025"
+  },
+  {
+    name: "PyGrammaire",
+    repo: "https://github.com/Tinkering-Townsperson/PyGrammaire",
+    description: "Faisons de la grammaire! Les règles et les exceptions de la langue française, en forme de code!",
+    creation: "November 2024"
+  },
+  {
+    name: "Python Package Template",
+    repo: "https://github.com/Tinkering-Townsperson/python_package_template",
+    description: "A very customizable template for a Python package OR a package-ified Python app.",
+    creation: "November 2023"
+  },
+  {
+    name: "FizzBuzz",
+    repo: "https://github.com/Tinkering-Townsperson/FizzBuzz",
+    description: "My python implementation of FizzBuzz, a childhood game turned interview question.",
+    creation: "August 2022"
+  },
+  {
+    name: "SpaceName",
+    repo: "https://github.com/Tinkering-Townsperson/spacename",
+    description: "An alternative to dictionaries, built on the argparse Namespace class.",
+    creation: "February 2023"
+  },
+  {
+    name: "woodchopper",
+    repo: "https://github.com/TinkerTown-SEMI/woodchopper",
+    description: "A lightweight logging package for python.",
+    creation: "July 2022"
+  }
 ]
