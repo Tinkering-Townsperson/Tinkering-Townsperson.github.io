@@ -68,7 +68,7 @@ export const PROJECTS = [
   {
     name: "woodchopper",
     repo: "https://github.com/TinkerTown-SEMI/woodchopper",
-    description: "A lightweight logging package for python.",
+    description: "A lightweight logging package for python featuring colourful prefixes and log level support.",
     creation: "July 2022"
   }
 ]
