@@ -1,5 +1,5 @@
 * {
-  --secondary-color: #32CD32;
+  --secondary-color: limegreen;
   --font-stack: 'MesloLGM Nerd Font Mono', monospace;
   --mono-font-stack: 'MesloLGM Nerd Font Mono', monospace;
   --background-color: #1a1a1a;
@@ -30,7 +30,7 @@ p.copyright, p.copyright * {
 
 .App {
   padding: 0 0.3em;
-  background-color: #1a1a1a;
+  background-color: var(--background-color);
   min-height: 100vh;
 }
 
