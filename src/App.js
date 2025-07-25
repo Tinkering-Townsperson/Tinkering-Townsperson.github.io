@@ -15,7 +15,6 @@ function App() {
       <ContentPane />
       <br />
       <footer className="App-footer">
-        <p className="copyright">© 2025 Paya Maroufi</p>
         <div className="socials">
           <a href="https://github.com/Tinkering-Townsperson" target="_blank" rel="noreferrer">
             <i className="fab fa-github" aria-label="GitHub logo" />
@@ -24,6 +23,7 @@ function App() {
             <i className="fab fa-youtube" aria-label="YouTube logo" />
           </a>
         </div>
+        <p className="copyright">© 2025 Paya Maroufi</p>
       </footer>
     </div>
   );
