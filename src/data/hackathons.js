@@ -6,8 +6,8 @@ export const HACKATHONS = [
     location: "Vancouver, Canada",
     project: {
       name: "Twin Chaser",
-      description: "A 2D platformer made in Hack Club's Daydream Hackathon in September 2025.",
-      repo: "https://github.com/Tinkering-Townsperson/Twin-Chaser",
+      description: "A 2-player platformer game where the players control two characters, inspired by my real life friends the twins, who chase each other around. One must attempt to catch the other, while the other must avoid being caught.",
+      repo: "https://github.com/Tinkering-Townsperson/daydream-project",
       demo: "https://afternoonpm.itch.io/twin-chaser"
     }
   },
