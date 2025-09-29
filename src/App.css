@@ -3,6 +3,7 @@
   --font-stack: 'MesloLGM Nerd Font Mono', monospace;
   --mono-font-stack: 'MesloLGM Nerd Font Mono', monospace;
   --background-color: #1a1a1a;
+  --invert-font-color: #fff;
   margin: 0 auto;
   font-size: calc(10px + 1vmin);
   color: var(--secondary-color);
@@ -48,4 +49,8 @@ ul.project-list a.project-item-link:focus, ul.project-list a.project-item-link:h
   outline: 2px solid var(--secondary-color);
   outline-offset: 2px;
   background-color: var(--primary-color);
+}
+
+ul.project-list a.project-item-link:focus *, ul.project-list a.project-item-link:hover * {
+  color: var(--invert-font-color);
 }
