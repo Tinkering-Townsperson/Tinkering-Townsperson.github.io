@@ -27,6 +27,7 @@ function HackathonItem(props) {
         <p><strong>Date:</strong> {props.date}</p>
         <p><strong>Location:</strong> {props.location}</p>
         <p><strong>Project made:</strong> <a href={props.project.repo} className='link' target='_blank' rel='noreferrer'>{props.project.name}</a></p>
+        <p><strong>Project demo:</strong> <a href={props.project.demo} className='link' target='_blank' rel='noreferrer'>{props.project.demo}</a></p>
         <p><strong>Project description:</strong> {props.project.description}</p>
       </div>
     </div>
