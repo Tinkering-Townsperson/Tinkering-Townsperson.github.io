@@ -6,12 +6,14 @@
 }
 
 .link-button {
-  margin: 0px 20px 0px 0px;
+  margin: 10px 20px 10px 0px;
   cursor: pointer;
   font-size: 16px;
   border: limegreen 1px solid;
   color: lime;
+  display: inline-block;
   padding: 5px;
+  white-space: nowrap;
 }
 
 .link-button.active {

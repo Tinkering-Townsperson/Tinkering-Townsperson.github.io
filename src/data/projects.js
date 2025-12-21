@@ -1,8 +1,8 @@
 export const PROJECTS = [
   {
-    name: "payamaroufi.xyz",
+    name: "Tinkering-Townsperson.github.io",
     repo: "https://github.com/Tinkering-Townsperson/Tinkering-Townsperson.github.io",
-    description: "My personal portfolio website. Made during Hack Club's High Seas program.",
+    description: "My personal portfolio website. Made with React.js and terminal.css, and hosted on GitHub Pages.",
     creation: "January 2024"
   },
   {
@@ -16,6 +16,24 @@ export const PROJECTS = [
     repo: "https://github.com/FraserHackClub/FraserHackClub.github.io",
     description: "The website for the student-run coding club Fraser Hack Club, based in Vancouver, BC.",
     creation: "December 2024"
+  },
+  {
+    name: "UNDERTALE Manager",
+    repo: "https://github.com/Tinkering-Townsperson/undertale_manager",
+    description: "Manage multiple UNDERTALE save files!",
+    creation: "November 2025"
+  },
+  {
+    name: "Grid2Img",
+    repo: "https://github.com/Tinkering-Townsperson/grid2img",
+    description: "Revival and refactorization of my 2021 project \"Grid\". Converts a text file to a bitmap pixel art image.",
+    creation: "December 2024"
+  },
+  {
+    name: "Twin Chaser",
+    repo: "https://github.com/Tinkering-Townsperson/daydream-project",
+    description: "A 2-player platformer game where the players control two characters, inspired by my real life friends the twins, who chase each other around.",
+    creation: "September 2025"
   },
   {
     name: "HackGrid",
