@@ -1,5 +1,6 @@
 * {
   --secondary-color: limegreen;
+  --font-color: limegreen;
   --font-stack: 'MesloLGM Nerd Font Mono', monospace;
   --mono-font-stack: 'MesloLGM Nerd Font Mono', monospace;
   --background-color: #1a1a1a;
@@ -22,7 +23,7 @@ p.copyright, p.copyright * {
 }
 
 .App-footer div.socials a i {
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .App-footer div.socials a {

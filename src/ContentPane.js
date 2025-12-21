@@ -34,6 +34,21 @@ function HackathonItem(props) {
   );
 }
 
+function AboutMe() {
+  return (
+    <>
+      <h2 className='heading'>About Me</h2>
+      <p><b>Hey there!</b> I'm Paya Maroufi, a high school student living in Canada with a passion for programming, technology, and music.</p>
+      <p>I'm the president of <a href="https://fraser.hackclub.com" className='link' target='_blank' rel='noreferrer'>Fraser Hack Club</a>, a student-run coding club based in Coquitlam, right outside Vancouver, BC. I love organizing <a href="https://fraser.hackclub.com/program/swirl-website-workshop" className='link' target='_blank' rel='noreferrer'>events and workshops</a> to help others learn how to code and build cool projects.</p>
+      <p>In my free time, I play classical guitar, clarinet, and jazz trombone, and I occasionally compose music.</p>
+      <p>I also play UNDERTALE, and it's by far my favourite game.</p>
+
+      <h2 className='heading'>Current Endeavours</h2>
+      <p>I'm currently planning/organizing <a href='https://campfire.hackclub.com/vancouver' className='link' target='_blank' rel='noreferrer'>Campfire Vancouver</a>, a game jam for high schoolers in Vancouver.</p>
+    </>
+  );
+}
+
 function Projects() {
   return (
     <>
@@ -44,6 +59,17 @@ function Projects() {
           <ProjectItem name={project.name} repo={project.repo} description={project.description} tags={project.tags} creation={project.creation} />
         ))}
       </ul>
+    </>
+  );
+}
+
+function Music() {
+  return (
+    <>
+      <h2 className='heading'>Music</h2>
+
+      <p>Here are some songs I've composed.</p>
+      <p>Content coming soon</p>
     </>
   );
 }
@@ -62,31 +88,21 @@ function Hackathons() {
   );
 }
 
-function Stack() {
-  return (
-    <>
-      <h2 className='heading'>Stack</h2>
-      <p>This is my primary tech stack.</p>
-      <p>Content coming soon</p>
-      </>
-  );
-}
-
-function Achievements() {
-  return (
-    <>
-      <h2 className='heading'>Achievements</h2>
-      <p>These are some things I'm proud of.</p>
-      <p>Content coming soon</p>
-      </>
-  );
-}
-
 function ContentPane() {
-  const [activeComponent, setActiveComponent] = useState('projects');
+  const [activeComponent, setActiveComponent] = useState('aboutme');
   return (
     <div className="ContentPane">
       <div className="links">
+        <a
+          href="#"
+          onClick={(e) => {
+            e.preventDefault();
+            setActiveComponent('aboutme');
+          }}
+          className={`link-button ${activeComponent === 'aboutme' ? 'active' : ''}`}
+        >
+          About Me
+        </a>
         <a
           href="#"
           onClick={(e) => {
@@ -96,6 +112,15 @@ function ContentPane() {
           className={`link-button ${activeComponent === 'projects' ? 'active' : ''}`}
         >
           Projects
+        </a>
+        <a href='#'
+          onClick={(e) => {
+            e.preventDefault();
+            setActiveComponent('music');
+          }}
+          className={`link-button ${activeComponent === 'music' ? 'active' : ''}`}
+        >
+          Music
         </a>
         <a
           href="#"
@@ -107,28 +132,8 @@ function ContentPane() {
         >
           Hackathons
         </a>
-        <a
-          href="#"
-          onClick={(e) => {
-            e.preventDefault();
-            setActiveComponent('stack');
-          }}
-          className={`link-button ${activeComponent === 'stack' ? 'active' : ''}`}
-        >
-          Stack
-        </a>
-        <a
-          href="#"
-          onClick={(e) => {
-            e.preventDefault();
-            setActiveComponent('achievements');
-          }}
-          className={`link-button ${activeComponent === 'achievements' ? 'active' : ''}`}
-        >
-          Achievements
-        </a>
       </div>
-      <div className="content-pane">{activeComponent === 'projects' ? <Projects /> : activeComponent === 'hackathons' ? <Hackathons /> : activeComponent === 'stack' ? <Stack /> : activeComponent === 'achievements' ? <Achievements /> : 7}</div>
+      <div className="content-pane">{activeComponent === 'aboutme' ? <AboutMe /> : activeComponent === 'projects' ? <Projects /> : activeComponent === 'music' ? <Music /> : activeComponent === 'hackathons' ? <Hackathons /> : 'If you can read this, something went wrong 🤓'}</div>
     </div>
   );
 }
