@@ -43,8 +43,8 @@ function AboutMe() {
       <p>In my free time, I play classical guitar, clarinet, and jazz trombone, and I occasionally compose music.</p>
       <p>I also play UNDERTALE, and it's by far my favourite game.</p>
 
-      <h2 className='heading'>Current Endeavours</h2>
-      <p>I'm currently planning/organizing <a href='https://campfire.hackclub.com/vancouver' className='link' target='_blank' rel='noreferrer'>Campfire Vancouver</a>, a game jam for high schoolers in Vancouver.</p>
+      <h2 className='heading'>Recent Endeavours</h2>
+      <p>I organized and ran <a href='https://campfire.hackclub.com/vancouver' className='link' target='_blank' rel='noreferrer'>Campfire Vancouver</a>, a 2-day hackathon for <b>over 70</b> high schoolers in Vancouver.</p>
     </>
   );
 }
