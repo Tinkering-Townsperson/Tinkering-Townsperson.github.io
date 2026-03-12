@@ -33,6 +33,9 @@ function Footer(){
         <a href="https://hackclub.enterprise.slack.com/team/U081MDA4T24" target="_blank" rel="noreferrer">
           <i className="fab fa-slack" aria-label="Slack logo" />
         </a>
+        <a href="https://www.linkedin.com/in/paya-maroufi-61847a3b6/" target="_blank" rel="noreferrer">
+          <i className="fab fa-linkedin" aria-label="LinkedIn logo" />
+        </a>
       </div>
       <p className="copyright">&copy; 2025 Paya Maroufi [<a href="https://github.com/Tinkering-Townsperson/Tinkering-Townsperson.github.io" className="link" target="_blank" rel="noreferrer">repo</a> - commit <a href={latestCommit.html_url} className="underline hover:decoration-wavy" target="_blank" rel="noopenner noreferrer">{latestCommit.hash}</a> on {latestCommit.date}]</p>
     </footer>
